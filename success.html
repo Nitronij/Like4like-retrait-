@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Inscription Réussie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #333333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 300px;
+      margin: 2rem auto;
+      background-color: #f9f9f9;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    h2 {
+      color: #ffa500;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    h3 {
+      color: #333333;
+      font-size: 1.5rem;
+      margin-top: 1.5rem;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin: 0.5rem 0;
+    }
+    .payment-methods {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 1.5rem;
+    }
+    .payment {
+      background-color: #ffffff;
+      padding: 1rem;
+      border-radius: 10px;
+      margin: 0.5rem;
+      flex: 1 1 45%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 200px;
+      text-align: center;
+    }
+    .payment img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 0.5rem;
+    }
+    strong {
+      color: #ffa500;
+    }
+    @media (max-width: 768px) {
+      .payment {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Titre et sous-texte en haut -->
+    <h2>Successfully!</h2>
+    <p>Veuillez contacter notre service client ou leader pour payer les frais de retrait (16293f = 26$).</p>
+
+    <!-- Modes de paiement -->
+    <h3>Modes de paiement Mobile Money :</h3>
+    <div class="payment-methods">
+      <div class="payment">
+        <img src="img/moov-africa.png" alt="Moov Money Logo">
+        <h4>Moov Money</h4>
+        <p>Numéro : <strong>+XX XX XX XX XX</strong></p>
+        <p>Référence : <strong>INSCRIPTION-LIKE4LIKE</strong></p>
+      </div>
+      <div class="payment">
+        <img src="img/mtn.png" alt="MTN Mobile Money Logo">
+        <h4>MTN Mobile Money</h4>
+        <p>Numéro : <strong>+XX XX XX XX XX</strong></p>
+        <p>Référence : <strong>INSCRIPTION-LIKE4LIKE</strong></p>
+      </div>
+    </div>
+
+    <p>Après le paiement, envoyez une preuve à notre service client.</p>
+  </div>
+</body>
+</html>
